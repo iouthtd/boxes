@@ -1,0 +1,31 @@
+{
+	"framerate": 320,
+	"animationlength": 1.5,
+	"width": 512,
+	"height": 232,
+	"background": "background_space.png",
+	"backgroundcolor": [255, 0, 255],
+	"camerax": -3,
+	"cameray": 7,
+	"zoom": 0.25,
+	"gravityx": 0,
+	"gravityy": 50,
+	"objects": [
+		{"type": "box", "image": "box.png", "x": 0, "y": -1},
+		{"type": "box", "image": "box.png", "x": 2, "y": -1},
+		{"type": "box", "image": "box.png", "x": 4, "y": -1},
+		{"type": "box", "image": "box.png", "x": 0, "y": -3},
+		{"type": "box", "image": "box.png", "x": 2, "y": -3},
+		{"type": "box", "image": "box.png", "x": 4, "y": -3},
+		{"type": "box", "image": "box.png", "x": 0, "y": -5},
+		{"type": "box", "image": "box.png", "x": 2, "y": -5},
+		{"type": "box", "image": "box.png", "x": 4, "y": -5},
+		{"type": "box", "image": "box.png", "x": 0, "y": -7},
+		{"type": "box", "image": "box.png", "x": 2, "y": -7},
+		{"type": "box", "image": "box.png", "x": 4, "y": -7},
+		{"type": "box", "image": "box.png", "x": 0, "y": -9},
+		{"type": "box", "image": "box.png", "x": 2, "y": -9},
+		{"type": "box", "image": "box.png", "x": 4, "y": -9},
+		{"type": "circle", "image": "light.png", "x": -12, "y": -5, "density": 10, "vx": 50, "vy": -10, "light": true}
+	]
+}

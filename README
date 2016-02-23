@@ -1,0 +1,22 @@
+I wrote this program because I wanted to render an animated gif of a stack of boxes getting knocked over.
+Box2D provides the physics of the boxes but most everything else is done manually with low-level libraries.
+
+Press the ~ or § key (they key below ESC) to open the console.
+
+Commands:
+	help - list commands
+	blend - Reduces groups of 16 frames into 1 with a weighted average for motion blur.
+	framerate <int> - Changes preview framerate. Doesn't affect output.
+	load <file.json> - Loads and renders an animation.
+	pause - Pauses the preview.
+	resume - Resumes paused preview.
+	reverse - Reverses the animation.
+	save - Saves all frames to output/frame####.bmp.
+	quit - Exits the application.
+
+Dependencies:
+	Boost
+	Box2D
+	Cairo
+	Configurable Math Library
+	SDL2

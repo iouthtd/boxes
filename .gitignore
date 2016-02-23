@@ -1,0 +1,9 @@
+*.o
+*.dll
+obj/*
+output/*
+animation.gif
+*.layout
+*.depend
+boxes
+boxes.exe
